@@ -1,0 +1,30 @@
+{
+  "features": [{
+    "properties": {
+      "PARK_ID": 960,
+      "NAME": "Bearbrook Skateboard Park",
+      "DESCRIPTION": "Flat asphalt surface, 5 components"
+    },
+    "geometry": {
+      "coordinates": [53.09129491248863, -8.88538055156629]
+    }
+  }, {
+    "properties": {
+      "PARK_ID": 1219,
+      "NAME": "Bob MacQuarrie Skateboard Park (SK8 Extreme Park)",
+      "DESCRIPTION": "Flat asphalt surface, 10 components, City run learn to skateboard programs, City run skateboard camps in summer"
+    },
+    "geometry": {
+      "coordinates": [53.3528935772635, -6.261877057478193]
+    }
+  }, {
+    "properties": {
+      "PARK_ID": 1157,
+      "NAME": "Walter Baker Skateboard Park",
+      "DESCRIPTION": "Concrete bowl, 7,000 sq ft"
+    },
+    "geometry": {
+      "coordinates": [53.36756366119506, -6.247045319600308]
+    }
+  }]
+}

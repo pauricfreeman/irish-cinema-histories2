@@ -1,0 +1,152 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $beige;
+}
+
+body {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  font-family: acumin-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: $darkGrey;
+}
+
+button {
+  background: transparent;
+  border: none;
+  border: 2px solid $beige;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  color: $beige;
+  background: $darkGrey;
+
+  @media (min-width: $smallWidth1) {
+    &:hover {
+      background: $beige;
+      color: rgb(65, 65, 65);
+    }
+  }
+}
+
+.ireland-back-button {
+  .ireland-back-mobile {
+    display: none;
+  }
+
+  @media (max-width: $smallWidth1) {
+    .ireland-back-mobile {
+      display: inline;
+    }
+
+    .ireland-back-desktop {
+      display: none;
+    }
+  }
+}
+
+.back-button {
+  position: fixed;
+  width: 5%;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  margin: 2%;
+  transform: translateX(100vw);
+  transition: transform 0.5s ease;
+
+  img {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.back-regular {
+  position: absolute;
+  right: 1vw;
+  bottom: 1vw;
+  z-index: 2;
+  height: 6rem;
+  width: auto;
+  opacity: 1;
+
+  @media (max-width: $smallWidth1) {
+    height: 4rem;
+
+    @media (max-width: $smallWidth3) {
+      height: 3rem;
+    }
+  }
+}
+
+.back-hover {
+  position: absolute;
+  right: 1vw;
+  bottom: 1vw;
+  z-index: 3;
+  height: 6rem;
+  width: auto;
+
+  transition: all 0.3s ease;
+  opacity: 0;
+  cursor: pointer;
+
+  @media (min-width: $smallWidth1) {
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: $smallWidth1) {
+    height: 4rem;
+
+    @media (max-width: $smallWidth3) {
+      height: 3rem;
+    }
+  }
+}
+
+.active-back-button {
+  transform: translateX(0vw);
+}
+
+.App {
+  overflow: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+.map-pin-links {
+  text-decoration: none;
+  text-decoration-color: $darkGrey;
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: $darkGrey;
+  } 
+
+  h2 {
+    color: $darkGrey;
+    @include Headline1();
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    font-size:1.2rem;
+    
+  }
+}
+
+@import "./caseStudies";
+@import "./hero";
+@import "./_csSections";
+@import "./nav";
+@import "./sources";
+@import "./home";
+// @import "./interactiveMap";

@@ -1,0 +1,64 @@
+
+{
+    "features": [{
+      "properties": {
+        "CASE_STUDY_ID": 0,
+        "PARK_ID": 960,
+        "NAME": "A Dublin Cinema Story",
+        "DESCRIPTION": "",
+        "IMAGE": "./caseStudy1/caseStudy1_pin.png",
+        "LINK": "/a-dublin-cinema"
+      },
+      "geometry": {
+        "coordinates": [53.3528935772635, -6.261877057478193]
+      }
+    }, {
+      "properties": {
+        "CASE_STUDY_ID": 1,
+        "PARK_ID": 1219,
+        "NAME": "Drogheda Cinema Stories",
+        "DESCRIPTION": "",
+        "IMAGE": "../media/caseStudy1/caseStudy1_pin.png",
+        "LINK": "/drogheda-cinema"
+      },
+      "geometry": {
+        "coordinates": [53.71448156976365, -6.35290560579994]
+      }
+    }, {
+      "properties": {
+        "CASE_STUDY_ID": 2,
+        "PARK_ID": 1157,
+        "NAME": "Small-Town Cinema Stories",
+        "DESCRIPTION": "",
+        "IMAGE": "./media/caseStudy1/caseStudy1_pin.png",
+        "LINK": "/small-town-cinemas"
+      },
+      "geometry": {
+        "coordinates": [54.05307181872455, -7.100347172792912]
+      }
+    }, {
+        "properties": {
+          "CASE_STUDY_ID": 3,
+          "PARK_ID": 1219,
+          "NAME": "Travelling Cinema Stories",
+          "DESCRIPTION": "",
+          "IMAGE": "../media/caseStudy1/caseStudy1_pin.png",
+          "LINK": "/travelling-cinema"
+        },
+        "geometry": {
+          "coordinates": [53.09129491248863, -8.88538055156629]
+        }
+      }, {
+        "properties": {
+          "CASE_STUDY_ID": 4,
+          "PARK_ID": 1219,
+          "NAME": "Suburban Cinema Stories",
+          "DESCRIPTION": "",
+          "IMAGE": "./caseStudy1/caseStudy1_pin.png",
+          "LINK": "/suburban-cinema"
+        },
+        "geometry": {
+          "coordinates": [53.36756366119506, -6.247045319600308]
+        }
+      }]
+  }

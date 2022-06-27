@@ -1,0 +1,327 @@
+// Shared across all
+.column-2,
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem;
+  padding-top: 14rem;
+
+  .main-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  // Typeface Settings
+
+  .dates {
+    @include HeadlineDate();
+  }
+
+  .titles {
+    // Headline1
+    @include Headline1();
+    padding-top: 1rem;
+  }
+
+  .sections {
+    // SectionBody
+    @include SectionBody();
+    padding-top: 1rem;
+  }
+
+  .Collapsible__trigger {
+    @include ReadMoreButton();
+  }
+
+  .read-more-left,
+  .read-more-right {
+    // margin-top: -0.6vw;
+    width: 100%;
+    position: relative;
+  }
+
+  .read-more-body {
+    padding-top: 0.5vw;
+    @include ReadMoreBody();
+  }
+
+  .read-more-left .Collapsible__trigger {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+
+    .read-more-buttons {
+      p {
+        padding-right: 0.5vw;
+
+        @media (max-width: $smallWidth1) {
+          padding-right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .read-more-right .Collapsible__trigger {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+
+    .read-more-buttons {
+      p {
+        padding-left: 0.5vw;
+        @media (max-width: $smallWidth1) {
+          padding-left: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .read-more-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+
+    svg {
+      height: 1.1vw;
+      width: 1.1vw;
+
+      @media (max-width: $smallWidth1) {
+        height: 1rem;
+        width: 1rem;
+      }
+    }
+
+    p {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    @media (min-width: $smallWidth1) {
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.video-container {
+  width: 85% !important;
+  margin: auto;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////// Column 3
+//////////////////////////////////////////////////////////
+
+.column-3 {
+  .main-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    // justify-content: space-between;
+    .quotation {
+      @include SectionQuote();
+    }
+    .quotation-marks {
+      @include SectionQuoteMarks();
+    }
+    .quote-ref {
+      @include SectionQuoteRef();
+      padding-top: 1.8rem;
+    }
+
+    width: 25%;
+  }
+
+  .image {
+    width: 44%;
+    padding: 0rem 1rem;
+    // max-height: 232vw;
+
+    img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .text {
+    // background: rgb(230, 196, 173);
+    width: 30%;
+    padding-bottom: 1.5rem;
+  }
+}
+
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////// Column 2
+//////////////////////////////////////////////////////////
+
+.column-2 {
+  .text {
+    width: 32%;
+    padding-bottom: 1.5rem;
+  }
+
+  .image {
+    // background: lightblue;
+    width: 67%;
+    // max-height: 232vw;
+
+    img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  // .Collapsible__trigger {
+  // }
+}
+
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////// Scattered
+//////////////////////////////////////////////////////////
+
+.scattered-left,
+.scattered-right {
+  height: 1px;
+  position: relative;
+
+  img {
+    position: absolute;
+    z-index: -1;
+    height: 8rem;
+    
+  }
+}
+
+.scattered-left {
+  img {
+    left: -8%;
+    top: 20px;
+    @media (max-width: $smallWidth1) {
+      height: 5rem !important;
+      // background: red;
+      left: -8%;
+      top: 0;
+    }
+  }
+}
+
+.scattered-right {
+  img {
+    left: 96%;
+    @media (max-width: $smallWidth1) {
+      height: 5rem !important;
+      // background: red;
+      left: 96%;
+    }
+    
+  }
+}
+
+@media (max-width: $smallWidth2) {
+  .scattered-left,
+  .scattered-right {
+    img {
+      height: 60px !important;
+      width: 60px !important;
+    }
+  }
+}
+
+@media (max-width: $smallWidth3) {
+  .scattered-left,
+  .scattered-right {
+    img {
+      height: 50px !important;
+      width: 50px !important;
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////// Read More Buttons
+//////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////// Mobile
+//////////////////////////////////////////////////////////
+
+@media (max-width: $smallWidth1) {
+  .column-2,
+  .column-3 {
+    padding-top: 5rem;
+
+    .main-area {
+      flex-direction: column;
+
+      .text {
+        order: 1;
+        // background: red;
+      }
+
+      .quote {
+        order: 2;
+        // background: green;
+      }
+
+      .image {
+        order: 3;
+        // background: blue;
+      }
+    }
+    .image,
+    .quote,
+    .text {
+      width: 100%;
+      margin: auto;
+    }
+
+    .image,
+    .quote {
+      padding: 0rem 0rem 0rem 0rem;
+    }
+
+    @media (max-width: $smallWidth3) {
+      .image {
+        // width: 110%;
+      }
+    }
+
+    .quote {
+      width: 70%;
+
+      .quote-ref {
+        padding: 0.8rem 0rem 2.2rem 0rem;
+      }
+    }
+
+    .read-more-left,
+    .read-more-right {
+      // background: red;
+      // display: none;
+      padding: 1.2rem 0rem;
+    }
+  }
+
+  @media (max-width: $smallWidth2) {
+    .video-container {
+      width: 100% !important;
+    }
+  }
+}

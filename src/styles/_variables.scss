@@ -1,0 +1,205 @@
+// Colours
+
+$beige: #e7ded5;
+$darkBeige: #e7ded565; //#e7ded565;
+$darkGrey: #303030;
+
+// Case Study 1
+$csPurple: #802971;
+$csPurpleLight: #a85a9b;
+
+// Case Study 2
+$csBlue: #383d98;
+$csBlueLight: #6d71b8;
+
+// Case Study 3
+$csGreen: #114224;
+$csGreenLight: #4e8362;
+
+// Case Study 4
+$csYellow: #e28d25;
+$csYellowLight: #dbb98f;
+
+// Case Study 5
+$csOrange: #d72d27;
+$csOrangeLight: #df8d8b;
+
+// Screen Widths
+$smallWidth1: 968px;
+$smallWidth2: 768px;
+$smallWidth3: 500px;
+
+$smallWidth1_Min: 969px;
+
+// Typography
+@mixin HeroDisplay1 {
+  // Acumin Pro Bold
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700; // Bold
+  font-style: normal;
+
+  font-size: 4.2vw;
+  line-height: 1;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 6vw;
+
+    @media (max-width: $smallWidth2) {
+      font-size: 8vw;
+    }
+  }
+}
+
+@mixin HeroDisplay2 {
+  // Plantin MT Pro Italic
+  font-family: plantin, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+  // font-size: 3.2rem;
+  font-size: 2.6vw;
+  line-height: 0.8;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 3.6vw;
+
+    @media (max-width: $smallWidth2) {
+      font-size: 5vw;
+    }
+  }
+}
+
+@mixin Headline1 {
+  // Plantin MT Pro Italic
+  font-family: plantin, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+  font-size: 3.1vw;
+  line-height: 1;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 6.4vw;
+
+    @media (max-width: $smallWidth3) {
+      font-size: 8.6vw;
+    }
+  }
+}
+
+@mixin HeadlineDate {
+  // Plantin MT Pro Italic
+  font-family: plantin, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+  font-size: 1.8vw;
+  line-height: 1;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 1.2rem;
+  }
+}
+
+@mixin SectionBody {
+  // Acumin Pro Medium
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400; // Regular
+  font-style: normal;
+
+  font-size: 1.4vw;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 1.3rem;
+
+    @media (max-width: $smallWidth2) {
+      font-size: 1rem;
+    }
+  }
+}
+
+@mixin ReadMoreButton {
+  // Acumin Pro Medium
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400; // Regular
+  font-style: normal;
+  color: $darkBeige;
+
+  // font-size: 0.8rem;
+  font-size: 0.9vw;
+  line-height: 1;
+  // padding: 0.2rem;
+  // border: 1px solid $beige;
+  // border-radius: 2px;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 0.9rem;
+  }
+}
+
+@mixin ReadMoreBody {
+  // Acumin Pro Medium
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400; // Regular
+  font-style: normal;
+
+  font-size: 1.3vw;
+  // line-height: 1.5vw;
+  text-align: justify;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 1.1rem;
+  }
+}
+
+@mixin SectionQuoteMarks {
+  // Plantin MT Bold
+  font-family: plantin, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+
+  font-size: 4.2vw;
+  line-height: 0.5;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 10vw;
+    padding-top: 1.2rem;
+
+    @media (max-width: $smallWidth2) {
+      font-size: 16vw;
+    }
+  }
+}
+
+@mixin SectionQuote {
+  // Acumin Pro Medium
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700; // Regular
+  font-style: normal;
+
+  font-size: 2.2vw;
+  // line-height: 1.4;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 4.4vw;
+    text-align: center;
+
+    @media (max-width: $smallWidth2) {
+      font-size: 6vw;
+    }
+  }
+}
+
+@mixin SectionQuoteRef {
+  // Plantin MT Pro Italic
+  font-family: plantin, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+  font-size: 1vw;
+
+  @media (max-width: $smallWidth1) {
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+  }
+}
