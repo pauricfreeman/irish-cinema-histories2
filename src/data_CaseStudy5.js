@@ -40,7 +40,7 @@ function caseStudy2_array() {
       caseStudyIntro: (
         <div>
           <h1 className="case-study-intro-title">
-            Title TBA
+            From Clontarf to Cabra: suburban cinemas on Dublin's northside
             <br></br>
           </h1>
           <div className="case-study-intro-body">
@@ -144,12 +144,12 @@ function caseStudy2_array() {
             In this more residential part of the city, observers other than
             Sherlock had little doubt about the kind of audiences the cinema
             would be serving. “The theatre will cater principally for the
-            working classes,” columnist Paddy noted in the Bioscope. It was
-            also, as Paddy further noted, “in a very fine position” that meant
-            that it could rely on considerable passing trade from people using
-            the trams that went by its door or on their way to or from such
-            nearby destinations as the Royal Barracks, the Smithfield markets
-            area, James’s Gate Brewery and Kingsbridge railway station.
+            working classes,” columnist Paddy noted in the <i>Bioscope</i>. It
+            was also, as Paddy further noted, “in a very fine position” that
+            meant that it could rely on considerable passing trade from people
+            using the trams that went by its door or on their way to or from
+            such nearby destinations as the Royal Barracks, the Smithfield
+            markets area, James’s Gate Brewery and Kingsbridge railway station.
           </p>
           <br></br>
           <p>
@@ -165,25 +165,26 @@ function caseStudy2_array() {
           <p>
             Some of the first big-budget special attractions that McGarvey
             advertised in the city’s newspapers to draw patrons from other parts
-            of the city were the Italian-made epic of classical Rome Quo Vadis?
-            (Italy: Cines, 1912), an adaptation of Alexander Dumas’ The Three
-            Musketeers (France: Film d’Art, 1912) and From the Manger to the
-            Cross (US: Kalem, 1912). The most prominent of all its early
-            productions, From the Manger to the Cross was the first life of
-            Christ to be filmed on location in Palestine and had been produced
-            by the same Kalem Company filmmakers who earlier in 1912 had been
-            shooting in Ireland (see it here).
+            of the city were the Italian-made epic of classical{" "}
+            <i>Rome Quo Vadis?</i>
+            (Italy: Cines, 1912), an adaptation of Alexander Dumas’{" "}
+            <i>The Three Musketeers</i> (France: Film d’Art, 1912) and{" "}
+            <i>From the Manger to the Cross</i> (US: Kalem, 1912). The most
+            prominent of all its early productions, From the Manger to the Cross
+            was the first life of Christ to be filmed on location in Palestine
+            and had been produced by the same Kalem Company filmmakers who
+            earlier in 1912 had been shooting in Ireland (see it here).
           </p>
           <br></br>
           <p>
-            Opponents of From the Manger to the Cross held public meetings to
-            have it banned, protesting “the utter undesirability of outraging
-            the religious sentiments of the citizens of Dublin by exhibiting in
-            the form of an entertainment, and for a purely commercial object,
-            the sufferings of Our Blessed Lord, and the more sacred incidents of
-            His life on earth.” However, the film also had many admirers,
-            including among the clergy, and it ran at the Phoenix for an
-            unusually long four-week run from 3-31 March 1913.
+            Opponents of <i>From the Manger to the Cross</i> held public
+            meetings to have it banned, protesting “the utter undesirability of
+            outraging the religious sentiments of the citizens of Dublin by
+            exhibiting in the form of an entertainment, and for a purely
+            commercial object, the sufferings of Our Blessed Lord, and the more
+            sacred incidents of His life on earth.” However, the film also had
+            many admirers, including among the clergy, and it ran at the Phoenix
+            for an unusually long four-week run from 3-31 March 1913.
           </p>
           <br></br>
           <p>
@@ -205,14 +206,14 @@ function caseStudy2_array() {
             children’s Saturday matinees may have had an even longer lasting
             impact on the cultural lives of young Dubliners. Born just metres
             from the Phoenix or “Feeno” in 1913, Crosbie vividly records its
-            “penny rush” of the late 1910s and early 1920s in his memoir Your
-            Dinner’s Poured Out. The single penny entry attracted children from
-            all over the city “from as far away as Fairview, Ringsend or
-            Drumcondra in little groups [that converged] on Ellis Quay, as if
-            drawn by a magnet.” Rituals of sweet-buying beforehand, the tussels
-            and overcrowding in the auditorium, and an uncritical delight in the
-            formulaic films shown were part of the experience of cinemagoing for
-            this segment of the Phoenix’s audience.
+            “penny rush” of the late 1910s and early 1920s in his memoir{" "}
+            <i>Your Dinner’s Poured Out</i>. The single penny entry attracted
+            children from all over the city “from as far away as Fairview,
+            Ringsend or Drumcondra in little groups [that converged] on Ellis
+            Quay, as if drawn by a magnet.” Rituals of sweet-buying beforehand,
+            the tussels and overcrowding in the auditorium, and an uncritical
+            delight in the formulaic films shown were part of the experience of
+            cinemagoing for this segment of the Phoenix’s audience.
           </p>
         </div>
       ),
@@ -743,8 +744,8 @@ function caseStudy2_array() {
             caught the attention of local Dublin cinema-goers whose name
             appeared on film posters and press advertisements with increasing
             frequency in the late 1920s. Indeed, <i>The Trail of ‘98</i> was Del
-            Rio’s last fully silent film before the release of Evangeline (US:
-            Carewe, 1929), which was released in Ireland in January 1930.
+            Rio’s last fully silent film before the release of <i>Evangeline</i>{" "}
+            (US: Carewe, 1929), which was released in Ireland in January 1930.
             Featuring musical numbers by Del Rio, <i>Evangeline</i>, as the{" "}
             <i>Evening Herald</i> film columnist noted, was described as the
             ‘swan song of the silent screen’ (25 January 1930). It was against
@@ -1176,7 +1177,7 @@ function caseStudy2_array() {
           <p>
             The Whitehall Grand served a ‘thickly populated’ catchment area (
             <i>Irish Independent</i>, 17 June 1955) that extended to Beaumont
-            and Donnybrook. Although the cinema didn’t have a car park, it was
+            and Donnycarney. Although the cinema didn’t have a car park, it was
             well connected by Dublin’s bus network and its position just off the
             Swords Road, one of the main thoroughfares out of the city centre,
             made the Grand accessible to patrons coming from other parts of the

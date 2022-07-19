@@ -2,6 +2,12 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
+// Import images
+import Sponsors01 from "../media/sponsors/Sponsors-01.png";
+import Sponsors02 from "../media/sponsors/Sponsors-02.png";
+import Sponsors03 from "../media/sponsors/Sponsors-03.png";
+import Sponsors04 from "../media/sponsors/Sponsors-04.png";
+
 // Images
 import logo from "../media/sources/logo.png";
 
@@ -100,6 +106,21 @@ const About = () => {
                 Denis Condon:{" "}
                 <a href="mailto: denis.j.condon@mu.ie">denis.j.condon@mu.ie</a>
               </p>
+            </div>
+            <div className="sponsor-images">
+              <img
+                className="sponsors"
+                src={Sponsors02}
+                alt="Irish Cinema Audiences"
+              ></img>
+              <img className="sponsors" src={Sponsors01} alt="Caroline"></img>
+
+              <img
+                className="sponsors"
+                src={Sponsors03}
+                alt="Irish Research Council"
+              ></img>
+              <img className="sponsors" src={Sponsors04} alt="EU"></img>
             </div>
           </div>
         </div>

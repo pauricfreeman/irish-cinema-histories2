@@ -57,6 +57,11 @@
     font-size: 2.2vw;
     padding-top: 2rem;
   }
+
+  .sponsors {
+    height: 100px;
+    padding: 3px;
+  }
 }
 
 // Mobile
@@ -65,3 +70,18 @@
     background: red;
   }
 }
+
+.sponsor-images {
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: -3px;
+    margin-right: -3px;
+    margin-top: 1rem;
+}
+
+
+
+
+
+

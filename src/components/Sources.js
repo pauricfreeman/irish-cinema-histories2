@@ -8,6 +8,12 @@ import logo from "../media/sources/logo.png";
 // Import components
 import IrelandBackButton from "./IrelandBackButton.js";
 
+// Import images
+import Sponsors01 from "../media/sponsors/Sponsors-01.png";
+import Sponsors02 from "../media/sponsors/Sponsors-02.png";
+import Sponsors03 from "../media/sponsors/Sponsors-03.png";
+import Sponsors04 from "../media/sponsors/Sponsors-04.png";
+
 const Sources = () => {
   return (
     <div>
