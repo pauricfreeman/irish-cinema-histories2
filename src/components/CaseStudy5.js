@@ -1,11 +1,11 @@
 import React from "react";
 
 // Import Images
-import scattered1 from "../media/caseStudy2/ScatteredImages/scattered1.png";
-import scattered3 from "../media/caseStudy2/ScatteredImages/scattered3.png";
-import scattered4 from "../media/caseStudy2/ScatteredImages/scattered4.png";
-import scattered8 from "../media/caseStudy2/ScatteredImages/scattered8.png";
-import scattered9 from "../media/caseStudy2/ScatteredImages/scattered9.png";
+import scattered1 from "../media/caseStudy5/ScatteredImages/scattered1.png";
+import scattered3 from "../media/caseStudy5/ScatteredImages/scattered2.png";
+import scattered4 from "../media/caseStudy5/ScatteredImages/scattered3.png";
+import scattered8 from "../media/caseStudy5/ScatteredImages/scattered5.png";
+import scattered9 from "../media/caseStudy5/ScatteredImages/scattered7.png";
 
 // Import Components
 import HeroSection from "./HeroSection";
@@ -50,16 +50,16 @@ const caseStudy = ({ caseStudyStatus, setCaseStudyStatus }) => {
               <ScatteredLeft image={scattered3} alt="alt" />
               <Column3TextImageQuote caseStudy1={cs_Data[3]} />
 
-              <ScatteredRight image={scattered4} alt="alt" />
               <Column2ImageText caseStudy1={cs_Data[4]} />
 
+              <ScatteredRight image={scattered4} alt="alt" />
               <Column3TextImageQuote caseStudy1={cs_Data[5]} />
 
               <Column2ImageText caseStudy1={cs_Data[6]} />
 
+              <ScatteredLeft image={scattered8} alt="alt" />
               <Column2TextImage caseStudy1={cs_Data[7]} />
 
-              <ScatteredLeft image={scattered8} alt="alt" />
               <Column3QuoteImageText caseStudy1={cs_Data[8]} />
 
               <ScatteredRight image={scattered9} alt="alt" />
