@@ -1,6 +1,9 @@
 import { v4 as uuidv4 } from "uuid";
 
 // Packages
+import ResponsiveEmbed from "react-responsive-embed";
+
+// Packages
 // import ResponsiveEmbed from "react-responsive-embed";
 
 // Import hero images
@@ -86,7 +89,7 @@ function caseStudy1_array() {
           Animated Pictures being exhibited twice daily at the Rotunda,” Joseph
           Holloway wrote in his diary on 18 January 1902, “I was determined to
           sample them & deliver judgement on them off my own bat before they
-          departed from our city.
+          departed from our city.”
         </p>
       ),
       id: uuidv4(),
@@ -842,6 +845,11 @@ function caseStudy1_array() {
             Dublin’s north inner city, John recalls how the Rotunda was
             transformed from a 4 penny cinema, to a luxury first run cinema:
           </p>
+          <br />
+          <div className="video-container-2">
+            <ResponsiveEmbed src="https://www.youtube.com/embed/1reLtSgrwEA" />
+          </div>
+          <br></br>
         </div>
       ),
     },
@@ -889,7 +897,7 @@ function caseStudy1_array() {
             In anticipation of the grand reopening, the <i>Evening Herald</i>{" "}
             declared ‘that the old Rotunda Picture House is no more’, instead,
             audiences could look forward to experiencing ‘the ever so much more
-            resplendent Ambassador Cinema’.Outwardly the integrity of the old
+            resplendent Ambassador Cinema’. Outwardly the integrity of the old
             Rotunda structure had been largely preserved, but what could
             audiences expect when they crossed the threshold of the Ambassador?
           </p>
@@ -941,6 +949,11 @@ function caseStudy1_array() {
             mother to see <i>Knock on Wood</i> during its run was Sally from
             Mount Merrion:
           </p>
+          <br />
+          <div className="video-container-2">
+            <ResponsiveEmbed src="https://www.youtube.com/embed/zxl5XgySeWQ" />
+          </div>
+          <br></br>
         </div>
       ),
     },
@@ -1000,11 +1013,18 @@ function caseStudy1_array() {
             growing up in Fairview, Brian was a regular attendee of his local
             cinema, the Fairview Grand, but the release of <i>Ben-Hur</i> was an
             event that prompted him and his friends to expand the boundaries of
-            their cinema-going territory with a trip into town. As Brian puts
-            it, this was a film that ‘everybody wanted to see’. In anticipation
-            of this demand, the Ambassador implemented advanced booking by
-            opening the box-office at 11am each day, while press listings from
-            the time urged cinema-goers to ‘book now!’.
+            their cinema-going territory with a trip into town.{" "}
+            <a
+              href="https://www.youtube.com/watch?v=k_CvMf-IRX8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              As Brian puts it
+            </a>
+            , this was a film that ‘everybody wanted to see’. In anticipation of
+            this demand, the Ambassador implemented advanced booking by opening
+            the box-office at 11am each day, while press listings from the time
+            urged cinema-goers to ‘book now!’.
           </p>
           <br></br>
           <p>
@@ -1049,6 +1069,11 @@ function caseStudy1_array() {
             doors to see it before its initial run finally came to an end on the
             9th February 1961.
           </p>
+          <br />
+          <div className="video-container-2">
+            <ResponsiveEmbed src="https://www.youtube.com/embed/k_CvMf-IRX8" />
+          </div>
+          <br></br>
         </div>
       ),
     },

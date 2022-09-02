@@ -36,12 +36,26 @@ const Sources = () => {
               <br></br>
               <p>
                 Most of the Irish newspaper references, clippings and images
-                have been sourced at the National Library of Ireland (NLI) or
-                through the Irish Newspaper Archive. Some additional Irish
-                newspapers and the UK-based cinema trade journals Bioscope and
-                Kinematograph Weekly have been sourced from the British
-                Newspaper Archive. International cinema journals were accessed
-                via the Media History Digital Library.
+                have been sourced at the{" "}
+                <a
+                  href="https://www.nli.ie/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  National Library of Ireland
+                </a>{" "}
+                (NLI) or through the{" "}
+                <a
+                  href="https://www.irishnewsarchive.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Irish Newspaper Archive
+                </a>
+                . Some additional Irish newspapers and the UK-based cinema trade
+                journals Bioscope and Kinematograph Weekly have been sourced
+                from the British Newspaper Archive. International cinema
+                journals were accessed via the Media History Digital Library.
               </p>
               <br></br>
               <p>
@@ -57,23 +71,44 @@ const Sources = () => {
                 </li>
                 <li>
                   One of the Last Trains at Clones - late 1950s’, Image courtesy
-                  of Monaghan County Museum – Magic Miles in Monaghan online
-                  exhibition
+                  of Monaghan County Museum –{" "}
+                  <a
+                    href="https://monaghan.ie/museum/wp-content/uploads/sites/2/2016/11/MAGICMILESINMONAGHAN.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Magic Miles in Monaghan
+                  </a>{" "}
+                  online exhibition
                 </li>
               </ul>
 
               <br></br>
               <p>
                 Images of Drogheda’s Whitworth Hall and Boyne Cinema and
-                Dublin’s Phibsboro Picture House are taken from Cinema
-                Treasures.
+                Dublin’s Phibsboro Picture House are taken from{" "}
+                <a
+                  href="http://cinematreasures.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Cinema Treasures
+                </a>
+                .
               </p>
               <br></br>
               <p>
                 Photographs from the Lawrence Collection of Living Picture at
                 the Rotunda, Dublin, the Square, Tuam, Co. Galway, Fair Green,
-                Ballinasloe, Co. Galway and Town Hall Theatre, Galway are from
-                NLI on Flickr Commons.
+                Ballinasloe, Co. Galway and Town Hall Theatre, Galway are from{" "}
+                <a
+                  href="https://www.flickr.com/photos/nlireland/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  NLI on Flickr Commons
+                </a>
+                .
               </p>
               <br></br>
               <p>
@@ -84,7 +119,15 @@ const Sources = () => {
               <br></br>
               <p>
                 The hand-drawn image of the Mc Fadden’s Travelling Cinema is
-                courtesy of Lackagh Museum and Heritage Centre.
+                courtesy of{" "}
+                <a
+                  href="https://www.lackaghmuseum.ie/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lackagh Museum and Heritage Centre
+                </a>
+                .
               </p>
               <br></br>
               <p>
@@ -138,18 +181,33 @@ const Sources = () => {
               <h2>Acknowledgements</h2>
               <br></br>
               <p>
-                Thank you to Age Action Ireland, partner organisation of the
-                Irish Cinema Audiences project. With their support it has been
-                possible to capture the memories of cinema-goers from across the
-                country. A special thanks to all those who generously
-                contributed to the Irish Cinema Audiences project by sharing
-                their memories in questionnaires and interviews.
+                Thank you to{" "}
+                <a
+                  href="https://www.ageaction.ie/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Age Action Ireland
+                </a>
+                , partner organisation of the Irish Cinema Audiences project.
+                With their support it has been possible to capture the memories
+                of cinema-goers from across the country. A special thanks to all
+                those who generously contributed to the Irish Cinema Audiences
+                project by sharing their memories in questionnaires and
+                interviews.
               </p>
               <br></br>
               <p>
-                The Irish Cinema Histories website has received funding from the
-                Irish Research Council and the EU’s Horizon 2020 programme under
-                the Maire Sklodowska-Curie grant agreement No 713279
+                The Irish Cinema Histories website has received funding from the{" "}
+                <a
+                  href="https://research.ie/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Irish Research Council
+                </a>{" "}
+                and the EU’s Horizon 2020 programme under the Maire
+                Sklodowska-Curie grant agreement No 713279
               </p>
             </div>
           </div>

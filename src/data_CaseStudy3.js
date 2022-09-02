@@ -637,7 +637,7 @@ function caseStudy2_array() {
       imageURL: CaseStudy6,
       section: (
         <p>
-          In October 1933 the Fermanagh Herald reported that Clones Urban
+          In October 1933 the <i>Fermanagh Herald</i> reported that Clones Urban
           Council had granted a cinema licence for St Joseph’s Temperance Hall.
           Located on Church Hill, St Joseph’s Hall was built in 1912 and stands
           just a short distance from the Sacred Heart Catholic Church in one
@@ -689,7 +689,7 @@ function caseStudy2_array() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Don Bosco
+              <i>Don Bosco</i>
             </a>{" "}
             (Italy: Alessandrini, 1935) where the audience was “crowded to the
             doors” of St Joseph’s Hall (<i>Anglo-Celt</i>, 26 March 1938).
@@ -843,7 +843,15 @@ function caseStudy2_array() {
             segregated seating is not recalled as a policy imposed on the young
             audience, rather the division of the sexes was seen as a test of a
             young boy’s masculinity: ‘ “if you went over to the girls’ side you
-            were definitely a sissy”: [Link to Jimmy’s YouTube clip]
+            were definitely a sissy”: [
+            <a
+              href="https://www.youtube.com/watch?v=R18xZSq3cfY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link to Jimmy’s YouTube clip
+            </a>
+            ]
           </p>
         </div>
       ),
@@ -891,7 +899,7 @@ function caseStudy2_array() {
             impressive four and a half months with the collaboration of numerous
             local suppliers. The result was a cinema that the owners proudly
             claimed to be “equal to any cinema in Eire” with a programming
-            policy that promised audiences “‘nothing but the best’ so long as we
+            policy that promised audiences “‘nothing but the best so long as we
             are privileged to entertain you”. Like many urban and rural cinemas
             around the country, the Magnet offered a diverse programme made up
             of multiple forms of entertainment. In addition to its standard
@@ -1129,13 +1137,20 @@ function caseStudy2_array() {
             by the Shannon Scheme) since 1931, the electrification of homes in
             the surrounding villages and parishes was still in progress in the
             late 1950s. The nearby villages of Smithboro and Newbliss were not
-            fully electrified until June 1960 and February 1961 respectively
-            (ESB Archives). Jimmy, a regular cinema-goer at the Luxor, recalls
-            the sense of wonder that he experienced as a boy when electricity
-            was rolled out to his family’s home. For cinema-goers like Jimmy,
-            the installation of central heating at the Luxor offered an
-            additional comfort, but it was the advent of CinemaScope that really
-            captured the imagination.
+            fully electrified until June 1960 and February 1961 respectively (
+            <a
+              href="https://esbarchives.ie/2016/10/13/monaghan-rural-areas-launched-online/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ESB Archives
+            </a>
+            ). Jimmy, a regular cinema-goer at the Luxor, recalls the sense of
+            wonder that he experienced as a boy when electricity was rolled out
+            to his family’s home. For cinema-goers like Jimmy, the installation
+            of central heating at the Luxor offered an additional comfort, but
+            it was the advent of CinemaScope that really captured the
+            imagination.
           </p>
           <br />
           <div className="video-container-2">
@@ -1143,19 +1158,20 @@ function caseStudy2_array() {
           </div>
           <br></br>
           <p>
-            A report in The Argus on 27 September 1958 announced the arrival of
-            CinemaScope in Clones. A new thirty-foot screen had been installed
-            to facilitate the wide-screen format. To enhance the visual impact,
-            alterations were also made to the curtains around the proscenium to
-            accommodate the wider screen. The first CinemaScope film to be shown
-            at the Luxor was the musical Oklahoma (US: Rodgers and Hammerstein,
-            1955). Hugo, a thirteen year old at the time, recalls the buildup of
-            excitement running through the town ahead of the first screening.
-            According to the film listings published in The Argus on 27
-            September 1958, Oklahoma ran for just two nights, but Hugo’s
-            childhood memory of people “queuing on the streets for weeks” is
-            perhaps an indication of the sense of anticipation that surrounded
-            those first CinemaScope screenings at the Luxor:
+            A report in <i>The Argus</i> on 27 September 1958 announced the
+            arrival of CinemaScope in Clones. A new thirty-foot screen had been
+            installed to facilitate the wide-screen format. To enhance the
+            visual impact, alterations were also made to the curtains around the
+            proscenium to accommodate the wider screen. The first CinemaScope
+            film to be shown at the Luxor was the musical <i>Oklahoma</i> (US:
+            Rodgers and Hammerstein, 1955). Hugo, a thirteen year old at the
+            time, recalls the buildup of excitement running through the town
+            ahead of the first screening. According to the film listings
+            published in <i>The Argus</i> on 27 September 1958, <i>Oklahoma</i>{" "}
+            ran for just two nights, but Hugo’s childhood memory of people
+            “queuing on the streets for weeks” is perhaps an indication of the
+            sense of anticipation that surrounded those first CinemaScope
+            screenings at the Luxor:
           </p>
           <br />
           <div className="video-container-2">

@@ -59,7 +59,7 @@ function caseStudy2_array() {
               pictures formed another way of enticing patrons to
               turn-of-the-century circuses, fairs, bazaars, itinerant magic
               lantern shows, and travelling drama and variety entertainments of
-              many kinds. Some of these showpepple brought their own temporary
+              many kinds. Some of these showpeople brought their own temporary
               premises with them, while others used the existing facilities of
               municipal theatres, assembly halls or the meeting rooms of local
               organizations. By the 1910s, some travelling entertainers found
@@ -586,7 +586,7 @@ function caseStudy2_array() {
           For audiences in rural Ireland, cinema and cinema-going held a number
           of different meanings. When participants of the{" "}
           <a
-            href="https://www.militaryarchives.ie/collections/online-collections/bureau-of-military-history-1913-1921/reels/bmh/BMH.WS0406.pdf#page=1"
+            href="https://www.youtube.com/channel/UCKHF8FzsqbhJcVM7-mbDIgg"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -672,20 +672,19 @@ function caseStudy2_array() {
           <p>
             The McFaddens travelled all over Ireland, but their circuit around
             north-east Galway often took in townlands such as Menlough, Skehana,
-            Turloughmore and Glenamaddy.The family returned to the same
+            Turloughmore and Glenamaddy. The family returned to the same
             locations year after year and became well-known in the communities
             that they visited. For the Murray family from Turloughmore, the
             return of the McFaddens to the area in May 1937 held a very special
             significance. As they had done in previous years, the McFaddens set
             up their cinema in a field on the Murray family’s land. On 14 May
-            1937 Bridget Murray (pictured in the black and white photo above)
-            went down to the McFaddens’ caravans to bring them some milk when
-            she suddenly went into labour with her seventh child. With the help
-            of Florence McFadden, she delivered a healthy baby boy whom she
-            named John (Jackie). In the years that followed, the young Jackie
-            Murray (pictured above with his school hurling team in 1948 - front
-            row, 2nd from right) would also enjoy McFadden’s travelling cinema
-            during their annual visits to the area.
+            1937 Bridget Murray went down to the McFaddens’ caravans to bring
+            them some milk when she suddenly went into labour with her seventh
+            child. With the help of Florence McFadden, she delivered a healthy
+            baby boy whom she named John (Jackie). In the years that followed,
+            the young Jackie Murray (pictured above with his school hurling team
+            in 1948 - front row, 2nd from right) would also enjoy McFadden’s
+            travelling cinema during their annual visits to the area.
           </p>
           <br></br>
           <p>

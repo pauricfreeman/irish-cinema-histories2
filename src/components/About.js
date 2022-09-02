@@ -30,12 +30,26 @@ const About = () => {
               <br></br>
               <p>
                 Irish Cinema Histories is a collaborative digital research
-                project led by Sarah Culhane (University College Dublin) and
-                Denis Condon (Maynooth University). It draws on archival
-                materials and oral history sources to explore some of the
-                people, places and events that make up Ireland’s rich tapestry
-                of local film culture during the first half of the twentieth
-                century.
+                project led by{" "}
+                <a
+                  href="https://people.ucd.ie/sarah.culhane"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sarah Culhane
+                </a>{" "}
+                (University College Dublin) and{" "}
+                <a
+                  href="https://www.maynoothuniversity.ie/faculty-arts-celtic-studies-philosophy/our-people/denis-condon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Denis Condon
+                </a>{" "}
+                (Maynooth University). It draws on archival materials and oral
+                history sources to explore some of the people, places and events
+                that make up Ireland’s rich tapestry of local film culture
+                during the first half of the twentieth century.
               </p>
               <br></br>
               <p>

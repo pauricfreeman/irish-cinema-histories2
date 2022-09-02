@@ -65,23 +65,11 @@ const caseStudy = ({ caseStudyStatus, setCaseStudyStatus }) => {
               <ScatteredRight image={scattered8} alt="alt" />
               <Column3QuoteImageText caseStudy1={cs_Data[8]} />
 
-              <div className="video-container">
-                <ResponsiveEmbed src="https://www.youtube.com/embed/1reLtSgrwEA" />
-              </div>
-
               <Column3TextImageQuote caseStudy1={cs_Data[9]} />
 
               <ScatteredRight image={scattered10} alt="alt" />
 
-              <div className="video-container">
-                <ResponsiveEmbed src="https://www.youtube.com/embed/zxl5XgySeWQ" />
-              </div>
-
               <Column2ImageText caseStudy1={cs_Data[10]} />
-
-              <div className="video-container">
-                <ResponsiveEmbed src="https://www.youtube.com/embed/k_CvMf-IRX8" />
-              </div>
             </div>
           </div>
         </div>

@@ -282,7 +282,7 @@ function caseStudy2_array() {
         <div className="read-more-body">
           <br></br>
           <p>
-            For such a seemingly trivial case, it made national news in the
+            For such a seemingly trivial case, it made national news in the{" "}
             <i>Irish Independent</i>, in part because it fitted with other
             stories of juvenile crime supposedly caused by habitual cinema
             attendance and often by watching crime films. However, the case was
@@ -397,7 +397,7 @@ function caseStudy2_array() {
           <p>
             Stanley remained proprietor of the Boyne until his death in 1950. By
             the 1950s, however, the Boyne suffered in reputation among Drogheda
-            cinemagoers when compared to such purpose built cinemas as the Abbey
+            cinemagoers when compared to purpose built cinemas such as the Abbey
             and the Gate.
           </p>
           <br />
@@ -541,7 +541,14 @@ function caseStudy2_array() {
             upholstered seating was split across the ground floor area and a
             balcony. Even patrons paying for the so-called ‘cheap seats’ were
             afforded the same level of comfort as those in the more expensive
-            seats. A regular patron of the Abbey in the 1950s, Elizabeth recalls
+            seats. A regular patron of the Abbey in the 1950s,{" "}
+            <a
+              href="https://www.youtube.com/watch?v=CQYT4wKs9d8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Elizabeth recalls
+            </a>{" "}
             the experience of entering the cinema’s luxurious environment.
           </p>
           <br></br>
@@ -552,6 +559,10 @@ function caseStudy2_array() {
             entrance in anticipation of entering ‘the big dark cinema’
             auditorium for the Saturday matinee.
           </p>
+          <br />
+          <div className="video-container-2">
+            <ResponsiveEmbed src="https://www.youtube.com/embed/4QFTdUoc3I4" />
+          </div>
           <br></br>
           <p>
             In addition to prioritising the comfort of his patrons, John Murphy
@@ -565,6 +576,10 @@ function caseStudy2_array() {
             challenged by Elizabeth’s memory of looking up at the screen through
             a ‘haze’ of cigarette smoke.
           </p>
+          <br />
+          <div className="video-container-2">
+            <ResponsiveEmbed src="https://www.youtube.com/embed/mPVz3zPuDno" />
+          </div>
           <br></br>
           <p>
             The programme on opening night featured the British film{" "}
@@ -618,9 +633,9 @@ function caseStudy2_array() {
         <p>
           On 2 November 1944 Drogheda’s second purpose built cinema, the Gate
           opened to the public. The grand opening featured a screening of the
-          musical Dixie (US: Sutherland, 1943) starring Bing Crosby and Dorothy
-          Lamour with all proceeds from the event going to the local branch of
-          Saint Vincent de Paul.
+          musical <i>Dixie</i> (US: Sutherland, 1943) starring Bing Crosby and
+          Dorothy Lamour with all proceeds from the event going to the local
+          branch of Saint Vincent de Paul.
         </p>
       ),
       id: uuidv4(),

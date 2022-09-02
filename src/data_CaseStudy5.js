@@ -109,11 +109,11 @@ function caseStudy2_array() {
       imageURL: CaseStudy1,
       section: (
         <p>
-          Rational, interesting, intelligent and educative amusement,” Dublin’s
+          “Rational, interesting, intelligent and educative amusement,” Dublin’s
           Lord Mayor Lorcan Sherlock announced as he opened the Phoenix Picture
           Palace on Ellis Quay on Tuesday, 3 December 1912, “was to be given
           there to thousands of the working class people of that neighbourhood
-          at very cheap rates.
+          at very cheap rates.”
         </p>
       ),
       id: uuidv4(),
@@ -1054,11 +1054,11 @@ function caseStudy2_array() {
             Party councillor. “The cinema has become part of our daily lives,”
             the <i>Irish Press</i> quoted Breen as saying. “I am a fairly keen
             cinema fan myself.” Located on Quarry Road, in the middle of the
-            large work-class housing estate of Cabra, the cinema had the largest
-            capacity of the Grands with over 1,600 seats and boasted one of the
-            widest proscenium arches in Ireland, measuring 43 feet. It had been
-            designed by Samuel Lyons of Henry Lyons and Sons, the architectural
-            firm responsible for all the Grands.
+            large working-class housing estate of Cabra, the cinema had the
+            largest capacity of the Grands with over 1,600 seats and boasted one
+            of the widest proscenium arches in Ireland, measuring 43 feet. It
+            had been designed by Samuel Lyons of Henry Lyons and Sons, the
+            architectural firm responsible for all the Grands.
           </p>
           <br></br>
           <p>
